@@ -152,7 +152,7 @@ function displayDivisionQuestion(operand1, operand2) {
     document.getElementById("operand1").textContent = operand1;
     document.getElementById("operand2").textContent = operand2;
     document.getElementById('operator').textContent = "/";
-    //result = Math.trunc(operand1 / operand2);
+    //return Math.trunc(operand1 / operand2);
 
 }
 
